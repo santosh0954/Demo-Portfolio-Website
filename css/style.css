@@ -122,11 +122,11 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
 
 @media only screen and (max-width: 500px) {
   nav ul {
-    text-align: center;
+    text-align: center; /* Adding text to center in lower screen sizes (under 500px) device like mobile phone */
   }
 
   nav ul li {
-    margin: 20px;
+    margin: 20px; /* Adding some margin around list item in lower screen size (under 500px) */
   }
 
   .project {
@@ -151,7 +151,7 @@ nav ul li a:hover {/*hover selector is used to select elements when you mouse ov
   list-style-type: none;      /*"list-style-type"specifies the type of list-item marker in a list(circle, square, disc, etc)
                               none indicates no marker is shown*/
   border: 2px solid #90C695;
-  border-radius: 100%;
+  border-radius: 100%;  /* making circle with border radius */
   width: 100px;
   height: 100px;
   line-height: 100px;         /* line-height property sets the amount of space used for lines, such as in text */
@@ -169,7 +169,7 @@ footer {
   padding: 20px;
   background: #22313F;
   color: white;
-  line-height: 40px;
+  line-height: 40px; /* Aligning the text to center vertically */
 }
 
 footer a {
@@ -184,7 +184,7 @@ such as width and height of the viewport or device, resolution, etc*/
   } */
   .contact-details {
     border: 2px solid #90C695;
-    border-radius: 0;
+    border-radius: 0; /* Changing contact details circle to rectangle in lower screen size */
     width: 90px;
     height: 20px;
     padding: 10px;
